@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #303030; /* Color negro gris */
+    background-image: url('inktch.png'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a32222; 
+}
+
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: rgb(247, 247, 247);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #525252;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #303030;
+    color: rgb(253, 253, 253);
+}
